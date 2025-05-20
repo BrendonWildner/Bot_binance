@@ -1,0 +1,8 @@
+pandas
+threading
+dotenv
+binance.client
+binance.enums
+ta.momentum
+ta.trend
+colorama
