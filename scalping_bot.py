@@ -24,8 +24,8 @@ PAIRS = [
     "DOGEUSDT", "LTCUSDT", "LINKUSDT", "AVAXUSDT", "ADAUSDT"
 ]
 QTY_USDT = 12
-STOP_LOSS_PCT = -0.5  
-TAKE_PROFIT_PCT = 0.5  
+STOP_LOSS_PCT = -0.5
+TAKE_PROFIT_PCT = 0.5
 MAX_OPERACOES_ATIVAS = 2
 STOP_GAIN_GLOBAL = 15
 STOP_LOSS_GLOBAL = -10
@@ -195,7 +195,6 @@ def monitor_trades():
             print(f"[{pair}] ➤ {side} | Entrada: {entry:.2f} | Atual: {price:.2f} | Lucro: {pnl_pct:.2f}%")
 
         time.sleep(10)
-
 
 def check_limits():
     if lucro_total <= STOP_LOSS_GLOBAL:
